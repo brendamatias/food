@@ -1,12 +1,14 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 
+import Button from '~/components/Button';
 // import { Container } from './styles';
 
 export default function Home() {
   return (
     <View>
-      <Text>Home</Text>
+      <Button>Register</Button>
+      <Button>Sign In</Button>
     </View>
   );
 }
